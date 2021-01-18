@@ -35,6 +35,24 @@ npx sequelize-cli model:generate --name User --attributes firstName:string,lastN
 npx sequelize-cli db:migrate
 ```
 
+#总体回顾 
+1.技术栈
+  node-->http,异常
+  web框架，express、 hapi、koa、egg
+  参数校验
+  mysql的使用，了解
+  ORM, sequelize 使用
+
+2.技术的关键点
+  api
+  web->webse rver-> router->hander->orm->db
+
+3.注意事项
+  需要做详细的模型设计->模型之间的关系()
+  api的使用文档-->api文档的使用工具
+  测试
+
+
 ## 常见问题
 
 ### `ERROR: Please install mysql2 package manually`
