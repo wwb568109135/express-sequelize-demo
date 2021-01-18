@@ -2,7 +2,7 @@
 
 学习地址：https://www.imooc.com/learn/1199
 
-课程里面的功能都能走通，如果遇到问题可以一起讨论，微信号: bxm_0927
+课程里面的功能都能走通，如果遇到问题可以一起讨论，提issue
 
 ## Sequelize 简介
 
@@ -21,8 +21,11 @@ npm install sequelize --save
 npm install sequelize-cli --save-dev
 ```
 
+在mysql终端上创建数据库
+
+
 ```
-# 初始化目录结构
+# 初始化db在工程下的目录结构
 npx sequelize-cli init
 
 # 创建表模型
